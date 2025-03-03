@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "5a98",
+      "usuario": "jose",
+      "contraseña": "1234",
+      "email": "jcr8026@gmail.com",
+      "tipo": "Admin"
+    },
+    {
+      "id": "c1c6",
+      "usuario": "carlitos",
+      "contraseña": "1234",
+      "email": "carli12@gmail.com",
+      "tipo": "usuario"
+    },
+    {
+      "id": "fe90",
+      "usuario": "carlitos",
+      "contraseña": "1234",
+      "email": "carli12@gmail.com",
+      "tipo": "usuario"
+    },
+    {
+      "id": "1228",
+      "usuario": "steven",
+      "contraseña": "1234",
+      "email": "jcr8026@gmail.com",
+      "tipo": "usuario"
+    },
+    {
+      "id": "b0fb",
+      "usuario": "steven",
+      "contraseña": "1234",
+      "email": "jcr8026@gmail.com",
+      "tipo": "usuario"
+    },
+    {
+      "id": "928b",
+      "usuario": "steven",
+      "contraseña": "1234",
+      "email": "jcr8026@gmail.com",
+      "tipo": "usuario"
+    }
+  ]
+}

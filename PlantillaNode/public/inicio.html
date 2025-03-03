@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+
+    <h1>Formulario de Solicitud de Permiso</h1>
+
+    <div class="contenedor-formulario">
+        <div id="formularioSolicitud">
+            <div class="grupo-formulario">
+                <label for="idUsuario">ID del Usuario:</label>
+                <input type="text" id="idUsuario" name="idUsuario" required>
+            </div>
+            <div class="grupo-formulario">
+                <label for="sede">Sede:</label>
+                <input type="text" id="sede" name="sede" required>
+            </div>
+            <div class="grupo-formulario">
+                <label for="fechaInicio">Fecha de Inicio:</label>
+                <input type="date" id="fechaInicio" name="fechaInicio" required>
+            </div>
+            <div class="grupo-formulario">
+                <label for="fechaFin">Fecha de Fin:</label>
+                <input type="date" id="fechaFin" name="fechaFin" required>
+            </div>
+            <div class="grupo-formulario">
+                <label for="codigoComputadora">Código de la Computadora:</label>
+                <input type="text" id="codigoComputadora" name="codigoComputadora" required>
+            </div>
+            <div class="grupo-formulario contenedor-checkbox">
+                <input type="checkbox" id="condiciones" name="condiciones" required>
+                <label for="condiciones">Acepto las condiciones.</label>
+            </div>
+            <button type="submit" id="enviarSolicitud">Enviar Solicitud</button>
+        </div>
+    </div>
+
+    <script type="module" src="inicio.js"></script>
+    
+
+
+
+
+     
+</body>
+</html>
